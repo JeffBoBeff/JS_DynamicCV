@@ -1,0 +1,156 @@
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+section > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-pic {
+    height: auto;
+    max-width: 25%;
+}
+
+.project > h3 {
+    padding: 5em;
+}
+
+.project > img {
+    max-width: 25%;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.skill {
+    border-radius: 2em;
+    padding: 0.2em;
+    background-color: lightblue;
+    width: fit-content;
+    margin: 0.1em;
+}
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: inherit;
+}
+a:hover {
+    background-color: lightcyan;
+}
+
+nav > .selected {
+    background-color: skyblue;
+}
+
+.basic-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5em;
+}
+
+.basic-master-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.skill-container {
+    padding: 1em;
+}
+
+.skill-master-container {
+    background-color: plum;
+    border-radius: 2em;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    display: flex;
+}
+
+.education-container > :nth-child(even) {
+    background-color: blanchedalmond;
+    border-radius: 2em;
+    padding: 1em;
+}
+
+.education-container > :nth-child(odd) {
+    background-color: aquamarine;
+    border-radius: 2em;
+    padding: 1em;
+}
+
+.edu {
+    border: solid 0.1em black;
+    margin: 1em;
+}
+
+.experience-container > :nth-child(even) {
+    background-color: blanchedalmond;
+    border-radius: 2em;
+    padding: 1em;
+}
+
+.experience-container > :nth-child(odd) {
+    background-color: aquamarine;
+    border-radius: 2em;
+    padding: 1em;
+}
+
+.exp {
+    border: solid 0.1em black;
+    margin: 1em;
+}
+
+@media only screen and (min-width: 480px) {
+    
+}
+
+@media only screen and (min-width: 801px) {
+    .education-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .experience-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 1281px) {
+    .education-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .experience-container {
+        display: flex;
+        flex-direction: row;
+    }
+    img {
+        max-width: 320px;
+    }
+}

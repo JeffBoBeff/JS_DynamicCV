@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header></header>
+        <nav>
+            <a href="index.html" class="selected">Main Page</a>
+            <a href="CV2.html">Portfolio</a>
+            <a href="CV3.html">Filler</a>
+        </nav>
+        <section class="basic">
+            <div class="basic-master-container">
+                <div class="basic-container">
+                    <p>Justin Green</p>
+                    <p>+(46)727357077</p>
+                    <p>justin.ec.green@gmail.com</p>
+                </div>
+                <img alt="" src="image1.jpg" class="profile-pic">
+            </div>
+        </section>
+        <section class="presentation">
+            <div class="presentation-master-container">
+                <h2>Who am I?</h2>
+                <p>"My name is Justin Green, a developer. I develop things."</p>
+            </div>
+        </section>
+        <section class="skills">
+            <div class="skill-master-container">
+                <h2>What skills do I have?</h2>
+                <div class="skill-container">
+                    <div class="skill">C#</div>
+                    <div class="skill">Unity</div>
+                    <div class="skill">Maya</div>
+                    <div class="skill">FMOD och diverse ljudläggningsprogram</div>
+                </div>
+            </div>
+        </section>
+        <button onclick="toggleDivEdu()">Show/Hide Education</button>
+        <section class="education">
+            <div class="education-master-container">
+                <h2>What's my education?</h2>
+                <div class="education-container">
+                    <!-- This is where education stuff from script goes -->
+                </div>
+            </div>
+        </section>
+        <button onclick="toggleDivExp()">Show/Hide Experience</button>
+        <section class="experience">
+            <div class="experience-master-container">
+                <h2>What work experience do I have?</h2>
+                <div class="experience-container">
+                    <!-- This is where work experience stuff from script goes -->
+                </div>
+            </div>
+        </section>
+        <footer></footer>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
